@@ -1,0 +1,71 @@
+aside.sidebar {
+  box-shadow: 5px 2px 20px skyblue, inset -5px 0px 20px skyblue;
+}
+
+body {
+  background: #353535;
+  color: white;
+}
+
+/*page-orphanage*/
+.orphanage-details {
+  background: #141414;
+  border: 1px solid #3f3f3f;
+}
+
+.open-details .hour,
+.open-details .open-on-weekends {
+  background: linear-gradient(150deg, #141414, #353535);
+  border: 1px solid #141414;
+}
+
+.images {
+  border-radius: 3rem;
+}
+
+.orphanage-details-content hr {
+  background-color: #353535;
+}
+
+/*page-create-orphanage*/
+form {
+  background: #141414;
+  border: 1px solid #353535;
+}
+
+fieldset legend {
+  border-bottom: 1px solid #3f3f3f;
+}
+
+.map-container {
+  border: 1px solid #3f3f3f;
+  background-color: #3f3f3f;
+  overflow: hidden;
+}
+
+.map-container footer {
+  background-color: #353535;
+}
+
+.input-block input,
+.input-block textarea,
+.input-block.images button {
+  background-color: #353535;
+  color: skyblue;
+  border: 1px solid #3f3f3f;
+}
+
+.new-upload span {
+  background-color: #141414;
+  border: 1px solid #3f3f3f;
+}
+
+.button-select button {
+  background-color: #141414;
+  border: 1px solid #353535;
+}
+
+.button-select button.active {
+  background-color: #353535;
+  border: 1px solid #353535;
+}
