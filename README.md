@@ -1,9 +1,14 @@
 # Desafio
-### Implementei um tema dark para as páginas orphanage e create-orphanage
+<img alt="demonstration" title="Dark Theme" src="demo/darkTheme.gif" />
 
- <img alt="demonstration" title="Dark Theme" src="demo/darkTheme.gif" />
+### Utilizando Javascript,inseri um botão para trocar o tema da aplicação para Dark
+<p>A maior dificuldade foi em manter o tema ao atualizar a página. Através de algumas pesquisas,aprendi a utilizar o localStorage para guardar a opção do tema.</p>
 
-<details><summary>Credits</summary>
+# Aprendizado
+<p>Aprendi bastante coisa nova no front-end, foi a primeira vez que utilizei uma API de mapa. Achei bem interessante a escolha da cor das fontes,pois serviu bem aos 2 temas.</p>
+<p>No Back-end deu pra absorver bastante conteúdo. Mesmo com pouca prática, não foi difícil acompanhar o desenvolvimento.</p>
+
+<details><summary><h1>Credits</h1></summary>
 <h1 align="center">
     <img alt="Happy" title="Happy" src="demo/logo.svg" />
 </h1>
