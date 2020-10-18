@@ -21,9 +21,16 @@ aside.sidebar {
   border: none;
 
   cursor: pointer;
-
+  font-size: 2rem;
+  font-weight: 800;
   color: white;
-  text-shadow: 2px 2px 2px black;
+
+  outline: none;
+}
+
+.toggle-theme:active {
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.26);
+  transform: translate(-1px);
 }
 
 aside.sidebar footer button {
