@@ -8,7 +8,7 @@ aside.appendChild(button)
 function changeTheme() {
     const link = document.createElement('link')
     link.setAttribute('rel','stylesheet')
-    link.setAttribute('href','./public/css/dark-theme.css')
+    link.setAttribute('href','/css/dark-theme.css')
 
     const head = document.head
     console.log(head.lastChild.nodeName)
