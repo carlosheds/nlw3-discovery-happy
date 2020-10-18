@@ -43,7 +43,7 @@
 
     <main class="animate-appear with-sidebar">
 
-      <form action="">
+      <form action="save-orphanage" method="post" onsubmit="validate(event)">
         <fieldset>
           <legend>Dados</legend>
 
@@ -72,7 +72,7 @@
 
           <div class="input-block">
             <label for="whatsapp">Número de whatsapp</label>
-            <input id="whatsapp" name="whatsapp" type="tel" required>
+            <input id="whatsapp" name="whatsapp" required>
           </div>
 
           <div class="input-block images">
@@ -81,7 +81,7 @@
             <div class="images-upload" id="images">
 
               <div class="new-upload">
-                <input name="images" placeholder="Cole o link da foto aqui" required>
+                <input name="images" placeholder="Cole o link da foto aqui" required type="url">
                 <span onclick="deleteField(event)"><img src="/images/remove-file.svg" alt="Remover imagem"></span>
               </div>
 
